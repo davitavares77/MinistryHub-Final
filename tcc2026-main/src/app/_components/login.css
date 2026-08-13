@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+.imagemfundo{
+ height: 100vh;
+ width: 50vw;   
+}
+
+.imagemfundo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.forms{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.logoministry{
+    
+   width: 300px;
+    display: flex;
+  position: absolute;
+  top: 40px;
+
+}
+
+.azul{
+    
+    height: 300px;
+    margin-top: 5%;
+    width: 500px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+h2{
+    color: #132858;
+}
+
+.titulo{
+    color: #132858;
+    font-size: 34px;
+}
+
+.normal{
+    color: #132858;
+    height: 40px;
+    
+}
+
+button{
+     width: 100%;
+    height: 30px;
+    padding: 0 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    
+}
+.input{
+    width: 100%;
+    height: 30px;
+    padding: 0 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1f2937;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2 ease;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final a{
+    color: #547fe2;
+}
